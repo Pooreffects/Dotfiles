@@ -1,0 +1,58 @@
+{
+  "workbench.colorTheme": "Just Black",
+  "workbench.iconTheme": "vscode-icons",
+  "color-highlight.markerType": "dot-before",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.previewLsp": true,
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "'Consolas'",
+  "editor.fontLigatures": true,
+  "code-runner.runInTerminal": true,
+  "window.zoomLevel": -1,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "foreground": "#0caa53",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+}
